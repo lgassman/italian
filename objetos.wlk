@@ -113,6 +113,14 @@ object makakiniBananini inherits ItalianBrainrot {
   override method image()= "makakinibananini.gif"
 }
 
+object ilcactoHipopotamo inherits ItalianBrainrot {
+  override method image()= "ilcactohipopotamo.gif"
+}
+
+object tricTracParaBoom inherits ItalianBrainrot {
+  override method image() = "trictracparaboom.gif"
+}
+
 
 
 
@@ -139,7 +147,9 @@ object italians {
     frulifrula,
     piccioneMachina,
     trulimeroTrulicina,
-    makakiniBananini]
+    makakiniBananini,
+    ilcactoHipopotamo,
+    tricTracParaBoom]
 
   method withOutCharacter() {
     return self.all().filter({ital => ital != character.ital()})
