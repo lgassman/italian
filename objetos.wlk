@@ -137,8 +137,42 @@ object blueberiOctopusMini inherits ItalianBrainrot {
   override method image() = "blueberiOctopusMini.gif"
 }
 
+object jiraffaCelestre inherits ItalianBrainrot {
+  override method image() = "jiraffaCelestre.gif"
+}
+
+object espressonaSignora inherits ItalianBrainrot {
+  override method image() = "espressonaSignora.gif"
+}
 
 
+object taTaTaSahur inherits ItalianBrainrot {
+  override method image() = "taTaTaSahur.gif"
+}
+
+object mateoooo inherits ItalianBrainrot {
+  override method image() = "mateoooo.gif"
+}
+
+object spioniroGolubiro inherits ItalianBrainrot {
+  override method image() = "spioniroGolubiro.gif"
+}
+
+object bombombiniGusini inherits ItalianBrainrot {
+  override method image() = "bombombiniGusini.gif"
+}
+
+object svininoBombondino inherits ItalianBrainrot {
+  override method image() = "svininoBombondino.gif"
+}
+
+object cocofantoElefanto inherits ItalianBrainrot {
+  override method image() = "cocofantoElefanto.gif"
+}
+
+object briBriBicusDicus inherits ItalianBrainrot {
+  override method image() = "briBriBicusDicus.gif"
+}
 
 
 
@@ -174,7 +208,16 @@ object italians {
     udinDinDinDinDun,
     potHotSpot,
     abononoChimpanzinono,
-    blueberiOctopusMini]
+    blueberiOctopusMini,
+    jiraffaCelestre,
+    espressonaSignora,
+    taTaTaSahur,
+    mateoooo,
+    spioniroGolubiro,
+    bombombiniGusini,
+    svininoBombondino,
+    cocofantoElefanto,
+    briBriBicusDicus]
 
   method withOutCharacter() {
     return self.all().filter({ital => ital != character.ital()})
