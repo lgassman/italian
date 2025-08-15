@@ -121,6 +121,27 @@ object tricTracParaBoom inherits ItalianBrainrot {
   override method image() = "trictracparaboom.gif"
 }
 
+object udinDinDinDinDun inherits ItalianBrainrot {
+  override method image() = "udindindindindun.gif"
+}
+
+object potHotSpot inherits ItalianBrainrot {
+  override method image() = "hotspot.gif"
+}
+
+object abononoChimpanzinono inherits ItalianBrainrot {
+  override method image() = "abonono.gif"
+}
+
+object blueberiOctopusMini inherits ItalianBrainrot {
+  override method image() = "blueberiOctopusMini.gif"
+}
+
+
+
+
+
+
 
 
 
@@ -149,7 +170,11 @@ object italians {
     trulimeroTrulicina,
     makakiniBananini,
     ilcactoHipopotamo,
-    tricTracParaBoom]
+    tricTracParaBoom,
+    udinDinDinDinDun,
+    potHotSpot,
+    abononoChimpanzinono,
+    blueberiOctopusMini]
 
   method withOutCharacter() {
     return self.all().filter({ital => ital != character.ital()})
