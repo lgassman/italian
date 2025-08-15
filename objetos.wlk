@@ -95,11 +95,25 @@ object tripitropi inherits ItalianBrainrot{
 object tungTugnTungSahur inherits ItalianBrainrot{
   override method image()= "tungtugntungsahur.gif"
 }
+object piccioneMachina inherits ItalianBrainrot {
+  override method image()= "piccionemachina.gif"
+
+}
 
 
 object vacaSaturnoSaturnita inherits ItalianBrainrot {
   override method image()= "vacasaturnosaturnita.gif"
 }
+
+object trulimeroTrulicina inherits ItalianBrainrot {
+  override method image()= "trulimerotrulicina.gif"
+}
+
+object makakiniBananini inherits ItalianBrainrot {
+  override method image()= "makakinibananini.gif"
+}
+
+
 
 
 object italians {
@@ -122,7 +136,10 @@ object italians {
     tungTugnTungSahur, 
     frigoCamelo,
     vacaSaturnoSaturnita,
-    frulifrula]
+    frulifrula,
+    piccioneMachina,
+    trulimeroTrulicina,
+    makakiniBananini]
 
   method withOutCharacter() {
     return self.all().filter({ital => ital != character.ital()})
